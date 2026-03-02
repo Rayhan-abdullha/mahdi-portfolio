@@ -5,5 +5,7 @@ export default async function BlogListPage() {
   const posts = await getAllPosts();
   await new Promise((resolve) => setTimeout(resolve, 500));
 
-  return <BlogListClient posts={posts} />;
+  return <div className=''>
+    <BlogListClient posts={posts} />
+  </div>
 }

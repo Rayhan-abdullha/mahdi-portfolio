@@ -9,8 +9,8 @@ import path from 'path';
 
 export async function createBlogAction(data: BlogPost) {
   await savePost(data);
-  revalidatePath('/blog'); // Clear cache to show new post
-  redirect(`/blog/${data.slug}`);
+  revalidatePath('/blogs'); // Clear cache to show new post
+  redirect(`/blogs/${data.slug}`);
 }
 export async function deletePostAction(formData: FormData) {
   const slug = formData.get('slug') as string;

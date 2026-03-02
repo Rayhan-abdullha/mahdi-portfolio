@@ -73,7 +73,7 @@ export default function UnifiedAdminEditor() {
     
     if (!slug) {
       const id = crypto.randomBytes(4).toString('hex');
-      slug = `untitled-${id}`;
+      slug = `post-${id}`;
     }
     
     const newPost: BlogPost = {
