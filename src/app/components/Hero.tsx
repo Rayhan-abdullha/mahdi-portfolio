@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center px-6 pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col justify-center px-6 pt-25 sm:pt-20 overflow-hidden">
       <div className="scanline"></div>
       
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="lg:col-span-7 space-y-6">
           <div className="space-y-2">
             <p className="font-mono text-accent text-sm tracking-[0.2em] uppercase">
-              // Infrastructure & Design Specialist
+              Infrastructure & Design Specialist
             </p>
             <h1 className="text-6xl md:text-8xl font-sans font-black tracking-tighter leading-none">
               MD MEHEDI <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/40">HASAN</span>

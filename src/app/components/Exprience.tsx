@@ -47,11 +47,11 @@ const ExperienceHorizontal = () => {
   };
 
   return (
-    <section id="experience" className="py-24 bg-neutral-950/50 max-w-7xl mx-auto">
-      <div className="max-w-7xl mx-auto px-6 mb-12 flex justify-between items-end">
+    <section id="experience" className="py-14 bg-neutral-950/50 max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-6 mb-12 flex flex-col sm:flex-row sm:justify-between items-end">
         <div>
-          <h2 className="text-4xl font-black uppercase tracking-tighter text-white">Project_Timeline</h2>
-          <span className="font-mono text-accent text-xs">// STATIONS_DATA_LOG</span>
+          <h2 className="text-4xl font-black uppercase tracking-tighter text-white">Project Timeline</h2>
+          <span className="font-mono text-accent text-xs">STATIONS_DATA_LOG</span>
         </div>
 
         {/* Navigation Buttons */}

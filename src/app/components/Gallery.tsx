@@ -10,10 +10,10 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="memories" className="py-24 px-6 max-w-7xl mx-auto">
+    <section id="memories" className="py-14 px-6 max-w-7xl mx-auto">
       <div className="mb-16">
         <h2 className="text-4xl font-black uppercase tracking-tighter">Field_Memories</h2>
-        <p className="font-mono text-xs text-white/40 mt-2">// ARCHIVED_DOCUMENTATION_GALLERY</p>
+        <p className="font-mono text-xs text-white/40 mt-2">ARCHIVED_DOCUMENTATION_GALLERY</p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

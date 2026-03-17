@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <div className="w-3 h-3 bg-accent animate-pulse rounded-full"></div>
           <span className="font-mono text-sm tracking-tighter uppercase font-bold">
-            M. Hasan // CVL-ENG
+            M. Hasan | CVL-ENG
           </span>
         </div>
         

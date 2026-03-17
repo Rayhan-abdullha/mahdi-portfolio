@@ -17,7 +17,7 @@ const academicData = [
 
 const Credentials = () => {
   return (
-    <section id="education" className="py-24 px-6 max-w-7xl mx-auto space-y-20">
+    <section id="education" className="py-14 px-6 max-w-7xl mx-auto space-y-20">
       
       {/* 1. Academic Qualification Grid */}
       <div className="space-y-10">
@@ -61,7 +61,7 @@ const Credentials = () => {
 
             <div className="flex-grow space-y-3 text-center md:text-left">
               <div className="inline-block px-2 py-0.5 bg-accent/20 text-accent font-mono text-[10px] uppercase tracking-tighter mb-2">
-                Member // Institution of Engineers Bangladesh
+                Membership of Institution of Engineers Bangladesh
               </div>
               <h3 className="text-2xl font-black tracking-tight uppercase">Engr. MD Mehedi Hasan</h3>
               <div className="grid grid-cols-2 gap-4 pt-2">
