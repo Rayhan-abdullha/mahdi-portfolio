@@ -12,7 +12,7 @@ const Hero = () => {
               Infrastructure & Design Specialist
             </p>
             <h1 className="text-6xl md:text-8xl font-sans font-black tracking-tighter leading-none">
-              MD MEHEDI <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/40">HASAN</span>
+              MAHADI <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/40">HASSAN</span>
             </h1>
           </div>
 
@@ -49,6 +49,8 @@ const Hero = () => {
         <span className="font-mono text-[10px] uppercase tracking-[0.3em] opacity-50 text-white">Initiate_Scroll</span>
         <div className="w-[1px] h-12 bg-gradient-to-b from-accent to-transparent"></div>
       </div>
+
+      
     </section>
   );
 };
